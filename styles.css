@@ -444,3 +444,14 @@ body {
             color: rgba(255, 255, 255, 0.88);
             cursor: pointer;
         }
+
+    /* Copy button */
+
+        .text-copy-ip {
+            transition: .3s;
+        }
+
+        .text-copy-ip:hover {
+            color: #F4FAFF;
+            cursor: pointer;
+        }
