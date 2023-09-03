@@ -198,6 +198,8 @@ body {
 
         .top-bar-button-text {
             padding: 8px;
+            display: flex;
+            align-items: center;
         }
 
         .top-bar-button-text-active {
@@ -429,5 +431,16 @@ body {
 
         .social-media:hover, .social-media:hover .material-symbols-outlined {
             color: #F4FAFF;
+            cursor: pointer;
+        }
+
+    /* Top button bar */
+
+        .top-bar-button-text {
+            transition: .3s;
+        }
+
+        .top-bar-button-text:hover, .top-bar-button-text:hover .material-symbols-outlined {
+            color: rgba(255, 255, 255, 0.88);
             cursor: pointer;
         }
