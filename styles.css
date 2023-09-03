@@ -33,6 +33,7 @@ body {
 
     .main-container {
         width: 31.84%;
+        max-width: 650px;
     }
 
 /* Other position styles */
