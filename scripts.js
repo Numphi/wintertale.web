@@ -1,5 +1,5 @@
 function copyToClipboard() {
-    navigator.clipboard.writeText('play.wintertale.su1');
+    navigator.clipboard.writeText('play.wintertale.su');
 }
 
 function toMainPage() {
