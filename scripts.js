@@ -6,21 +6,18 @@ function toMainPage() {
     document.getElementById("right-conteiner-main-content").style.display = 'flex';
     document.getElementById("right-container-rules-content").style.display = 'none';
     document.getElementById("right-container-loyal-content").style.display = 'none';
-    alert("nice");
 }
 
 function toRulesPage() {
     document.getElementById("right-conteiner-main-content").style.display = 'none';
     document.getElementById("right-container-rules-content").style.display = 'flex';
     document.getElementById("right-container-loyal-content").style.display = 'none';
-    alert("nice");
 }
 
 function toLoyalPage() {
     document.getElementById("right-conteiner-main-content").style.display = 'none';
     document.getElementById("right-container-rules-content").style.display = 'none';
     document.getElementById("right-container-loyal-content").style.display = 'flex';
-    alert("nice");
 }
 
 function redirect(link) {
