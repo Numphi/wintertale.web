@@ -98,20 +98,20 @@
             </div>
             <div class="main-container right-container">
                 <div class="top-bar font-inter">
-                    <div class="top-bar-button active-text">
-                        <div class="top-bar-button-text top-bar-button-text-active" onclick="toMainPage()">
+                    <div class="top-bar-button active-text" id="id-top-bar-button-main">
+                        <div class="top-bar-button-text" onclick="toMainPage()">
                             Главная
                         </div>
-                        <div class="top-bar-button-bottom active"></div>
+                        <div class="top-bar-button-bottom active" id="id-top-bar-2button-main"></div>
                     </div>
-                    <div class="top-bar-button passive-text">
-                        <div class="top-bar-button-text top-bar-button-text-passive" onclick="toRulesPage()">
+                    <div class="top-bar-button passive-text" id="id-top-bar-button-rules">
+                        <div class="top-bar-button-text" onclick="toRulesPage()">
                             Правила игры
                         </div>
-                        <div class="top-bar-button-bottom passive"></div>
+                        <div class="top-bar-button-bottom passive" id="id-top-bar-2button-rules"></div>
                     </div>
                     <div class="top-bar-button passive-text">
-                        <div class="top-bar-button-text top-bar-button-text-passive">
+                        <div class="top-bar-button-text">
                             Онлайн-карта
                             <div class="material-symbols-outlined">
                                 open_in_new
@@ -119,11 +119,11 @@
                         </div>
                         <div class="top-bar-button-bottom passive"></div>
                     </div>
-                    <div class="top-bar-button passive-text">
-                        <div class="top-bar-button-text top-bar-button-text-passive" onclick="toLoyalPage()">
+                    <div class="top-bar-button passive-text" id="id-top-bar-button-loyal">
+                        <div class="top-bar-button-text" onclick="toLoyalPage()">
                             Лояльность
                         </div>
-                        <div class="top-bar-button-bottom passive"></div>
+                        <div class="top-bar-button-bottom passive" id="id-top-bar-2button-loyal"></div>
                     </div>
                 </div>
                 <div id="right-conteiner-main-content">
@@ -140,6 +140,9 @@
                 </div>
                 <div id="right-conteiner-rules-content">
                     
+                </div>
+                <div id="right-container-loyal-content">
+                    You can be loyal :)
                 </div>
             </div>
         </div>
