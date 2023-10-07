@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winter Tale</title>
+    <script src="scripts.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,19 +72,19 @@
                         <div class="monitorings-block">
                             <div class="monitorings-title">Голосуйте за нас в мониторингах</div>
                             <div class="monitorings-list">
-                                <div class="monitoring-link">
+                                <div class="monitoring-link" onclick="redirect('https://minecraftrating.ru/server/wintertale/')">
                                     MINECRAFTRATING
                                     <div class="material-symbols-outlined">
                                         open_in_new
                                     </div>
                                 </div>
-                                <div class="monitoring-link">
+                                <div class="monitoring-link onclick="redirect('')"">
                                     MONITORINGMINECRAFT
                                     <div class="material-symbols-outlined">
                                         open_in_new
                                     </div>
                                 </div>
-                                <div class="monitoring-link">
+                                <div class="monitoring-link" onclick="redirect('https://hotmc.ru/minecraft-server-210507')">
                                     HOTMC
                                     <div class="material-symbols-outlined">
                                         open_in_new
@@ -98,13 +99,13 @@
             <div class="main-container right-container">
                 <div class="top-bar font-inter">
                     <div class="top-bar-button active-text">
-                        <div class="top-bar-button-text top-bar-button-text-active">
+                        <div class="top-bar-button-text top-bar-button-text-active" onclick="toMainPage()">
                             Главная
                         </div>
                         <div class="top-bar-button-bottom active"></div>
                     </div>
                     <div class="top-bar-button passive-text">
-                        <div class="top-bar-button-text top-bar-button-text-passive">
+                        <div class="top-bar-button-text top-bar-button-text-passive" onclick="toRulesPage()">
                             Правила игры
                         </div>
                         <div class="top-bar-button-bottom passive"></div>
@@ -119,7 +120,7 @@
                         <div class="top-bar-button-bottom passive"></div>
                     </div>
                     <div class="top-bar-button passive-text">
-                        <div class="top-bar-button-text top-bar-button-text-passive">
+                        <div class="top-bar-button-text top-bar-button-text-passive" onclick="toLoyalPage()">
                             Лояльность
                         </div>
                         <div class="top-bar-button-bottom passive"></div>
