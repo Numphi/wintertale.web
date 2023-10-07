@@ -236,6 +236,22 @@ body {
             align-items: center;
         }
 
+        /* Content changer */
+
+            #right-conteiner-main-content {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #right-container-rules-content {
+                display: none;
+            }
+
+            #right-container-loyal-content {
+                display: none;
+            }
+
 /* Text styles */
 
     .font-inter {
