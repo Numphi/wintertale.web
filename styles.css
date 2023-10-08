@@ -210,9 +210,18 @@ body {
             height: 70px;
         }
 
+        .in-top-bar-button-bottom {
+            width: 100%;
+        }
+
         .active {
+            height: 100%;
             border-top: 1px solid #d4ecff94;
             background: linear-gradient(-1deg, rgba(212, 236, 255, 0.00) 23.39%, rgba(212, 236, 255, 0.05) 99.25%);
+        }
+
+        .passive {
+            height: 0;
         }
 
         .right-container-text-content {
@@ -423,6 +432,10 @@ body {
 
 
 /* Animations */
+
+    .in-top-bar-button-bottom {
+        transition: .4s;
+    }
 
     .material-symbols-outlined {
         transition: .3s;
